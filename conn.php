@@ -2,7 +2,7 @@
 
 $sever = "localhost";
 $user = "root";
-$pass = "password";
+$pass = "";
 $db = "wpa_inventori";
 
 $conn = new mysqli($sever,$user,$pass,$db);
