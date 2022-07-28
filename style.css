@@ -1,0 +1,74 @@
+html, body
+{
+    height: 100%;
+    background-color: #7695b8 !important;
+}
+
+.global-container
+{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4e73df;
+}
+
+.login-form
+{
+    width: 380px;
+    height: 450px;
+    padding: 20px;
+    background-color: #c9c9c9 !important;
+    border-radius: 10px !important;
+}
+
+input[type="email"],
+input[type="password"]
+{
+    background: #c9c9c9;
+    color: white;
+    border: 2px solid #4e73df;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus
+{
+    outline: none;
+    border: none;
+    background:#c9c9c9;
+    color: white;
+    margin: 0;
+}
+.form-control, select
+{
+    background: #c9c9c9;
+    color: white;
+    border: 2px solid #4e73df;
+    border-radius: 15px;
+    margin-bottom: 25px; 
+}
+.form-control:focus,
+select:focus
+{
+    background: #c9c9c9;
+    color: white;
+    border: 2px solid #4e73df;
+    border-radius: 15px;
+    margin-bottom: 25px;  
+}
+.card-title
+{
+    font-weight: 900;
+    padding-top: 20px;
+}
+
+.btn
+{
+    background:#4e73df !important;
+    color: white !important;
+    transform: translateY(10px);
+    font-size: 14px;
+    border-radius: 10px !important;
+}
